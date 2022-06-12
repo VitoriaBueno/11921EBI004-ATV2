@@ -78,11 +78,11 @@ void spi5_handler    (void) __attribute__                   ((weak, alias("defau
 
 
 
-extern uint32_t _sdata;/* Inicio da secao .data */
-extern uint32_t _edata;/* Fim da secao .data */
+extern uint32_t _sdata;/* Start secao .data */
+extern uint32_t _edata;/* End da secao .data */
 extern uint32_t _la_data;/* Endereco de carga na RAM da secao .data */
-extern uint32_t _sbss;/* Inicio da secao .bss */
-extern uint32_t _ebss;/* Fim da secao .bss */
+extern uint32_t _sbss;/* Start da secao .bss */
+extern uint32_t _ebss;/* End da secao .bss */
 extern uint32_t _etext; 
 
 
